@@ -1,15 +1,34 @@
 # Trainingplan
 
-## 
-Unsere Anwendung stellt eine einfache Trainingsanwendung dar, welche Übungen des jeweiligen Tages anzeigt. 
+Trainingplan is a simple desktop application written in Java developed during the Software Development 2 course in winter semester 2022 in university. The application displays the trainingplan for each day of the week.
 
-## Startklasse
+## Features 
+Trainingplan has the following features: 
 
-Die Main-Methode befindet sich in der Klasse de.hdmstuttgart.controller.HelloApplication. Das Programm befindet sich im Ordner Trainingsapp.
+- display the training plan for the selected day
+- create their own profile
+- add a new exercise
+- navigate through the dialog for creating their own exercise (the funcionality is missing) 
 
-## Zusatzinfos
-Die übrigen Dateien wie die Dokumentation, die UML-Diagramme, unsere Präsentation oder der Bewertungsbogen befinden sich im Ordner Dokumentation. 
-Die Nachdenkzettel befinden sich im Ordner Nachdenkzettel.
+## How to Use
+The main methode is located in the class de.hdmstuttgart.controller.HelloApplication. The programm is in the folder Trainingplan.
 
-Wir wünschen viel Spaß beim Ausprobieren!
+## Technology Used
+Trainingplan was built using the following technologies: 
+- Java
+- FXML
+
+## TODOs: 
+Trainingplan is just a small study project and there are still bugs and missing functionalities: 
+
+**Bugs:** 
+- if going back from the create-exercise-screen to the trainingplan, the exercises are no longer displayed 
+
+**Missing Features:**
+- change the age in the profile
+- add a photo in the profile
+- add their own exercises to the category lists and the trainingplans
+
+**Developers:**
+This project was developed by a team of four students. 
 
