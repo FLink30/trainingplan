@@ -29,6 +29,18 @@ Trainingplan is just a small study project and there are still bugs and missing 
 - add a photo in the profile
 - add their own exercises to the category lists and the trainingplans
 
+## Use Case Diagram
+  
+![UseCaseDiagramm](https://github.com/FLink30/trainingplan/assets/146379845/4505c1cf-7f8d-4948-9b34-8c9ddc06ffc3)
+
+## Sequence Diagram
+
+![Sequenzdiagramm](https://github.com/FLink30/trainingplan/assets/146379845/def012ec-268c-41b8-9feb-faec16861b46)
+
+## Class Diagram
+
+<img width="4787" alt="KlassenDiagram" src="https://github.com/FLink30/trainingplan/assets/146379845/f27957db-b288-4f97-8137-d41a97ed3ab2">
+
 **Developers:**
 This project was developed by a team of four students. 
 
