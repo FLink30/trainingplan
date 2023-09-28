@@ -1,7 +1,6 @@
-# Trainingsapp2
+# Trainingplan
 
-# Willkommen in unserem Projekt!
-## Kurzbeschreibung
+## 
 Unsere Anwendung stellt eine einfache Trainingsanwendung dar, welche Übungen des jeweiligen Tages anzeigt. 
 
 ## Startklasse
