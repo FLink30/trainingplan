@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="850.0" minWidth="900.0" style="-fx-background-color: linear-gradient(to top , #5050FF, #4189FB);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdmstuttgart.trainingsapp.src.controller.CreateOwnExerciseController">
+   <children>
+      <VBox alignment="CENTER" layoutY="22.0" prefHeight="75.0" prefWidth="500.0" spacing="40.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="91.0" prefWidth="894.0">
+               <children>
+                  <Label alignment="CENTER" prefWidth="595.0" text="Create your own exercise" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Font" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Label>
+               </children>
+            </HBox>
+            <HBox fx:id="createOwnExercise" alignment="CENTER" spacing="20.0" />
+            <HBox alignment="CENTER" prefHeight="91.0" prefWidth="894.0">
+               <children>
+                  <Button fx:id="SelectExercise" alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#switchTo" style="-fx-background-color: #406CF4;">
+                     <HBox.margin>
+                        <Insets left="55.0" right="50.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/Zurückpfeil.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label alignment="TOP_LEFT" prefHeight="44.0" prefWidth="106.0" text="Name: " textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Font" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" right="60.0" />
+                     </HBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <TextField fx:id="exNameInput" prefHeight="26.0" prefWidth="194.0">
+                     <HBox.margin>
+                        <Insets left="50.0" right="195.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label fx:id="trainingGoal" alignment="TOP_LEFT" prefHeight="23.0" prefWidth="213.0" text="Exercise type:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboExType" prefHeight="26.0" prefWidth="190.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="sex" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="452.0" text="Number of sets:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="setsInput" prefHeight="26.0" prefWidth="439.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="birthday" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="434.0" text="Number of Reps" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="repsInput" prefHeight="26.0" prefWidth="449.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="fitnessLevel" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="396.0" text="Muscle:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboMuscle" prefHeight="26.0" prefWidth="410.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="save" alignment="CENTER" contentDisplay="CENTER" style="-fx-background-color: #6BC648;" text="save" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

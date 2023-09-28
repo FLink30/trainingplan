@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="850.0" minWidth="900.0" style="-fx-background-color: linear-gradient(to top , #5050FF, #4189FB);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdmstuttgart.trainingsapp.src.controller.AddExerciseController">
+   <children>
+      <VBox alignment="CENTER" layoutY="22.0" prefHeight="75.0" prefWidth="500.0" spacing="40.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="91.0" prefWidth="894.0">
+               <children>
+                  <Label alignment="CENTER" prefWidth="595.0" text="Do you want to add an exercise?" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Font" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="weekplan1" onAction="#switchTo" alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" style="-fx-background-color: #406CF4;">
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/Zurückpfeil.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="80.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label alignment="CENTER" prefHeight="60.0" prefWidth="215.0" text="Choose category" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="180.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="categoryCardio" onAction="#switchToSelectExercise" mnemonicParsing="false" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: #0559DB #0559DB; -fx-background-radius: 7;" text="Cardio" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="categoryStretching" onAction="#switchToSelectExercise" mnemonicParsing="false"  prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: #0559DB #0559DB; -fx-background-radius: 7;" text="Stretching" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Button fx:id="categoryStrength" onAction="#switchToSelectExercise" mnemonicParsing="false" prefHeight="70.0" prefWidth="400.0" style="-fx-background-color: #0559DB #0559DB; -fx-background-radius: 7;" text="Strength" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>

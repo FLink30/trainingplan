@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="850.0" minWidth="900.0"  style="-fx-background-color: #4189FB; -fx-background-color: linear-gradient(to top , #5050FF, #4189FB);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.hdmstuttgart.trainingsapp.src.controller.EditProfileController">
+   <children>
+      <VBox alignment="CENTER" layoutY="22.0" prefHeight="75.0" prefWidth="900.0" spacing="30.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="91.0" prefWidth="894.0">
+               <children>
+                  <ImageView fx:id="fotoEdit" fitHeight="100.0" fitWidth="100.0">
+                     <image>
+                        <Image url="@../images/Profilefoto_Plus.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="91.0" prefWidth="894.0">
+               <children>
+                  <Button fx:id="navProfile" alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#switchTo" style="-fx-background-color: #406CF4;">
+                     <HBox.margin>
+                        <Insets left="55.0" right="50.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView>
+                           <image>
+                              <Image url="@../images/Zurückpfeil.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Label alignment="TOP_LEFT" prefHeight="44.0" prefWidth="106.0" text="Name: " textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="System Font" size="36.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" right="60.0" />
+                     </HBox.margin>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets></Label>
+                  <TextField fx:id="userNameInput" prefHeight="26.0" prefWidth="194.0">
+                     <HBox.margin>
+                        <Insets left="50.0" right="195.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label fx:id="trainingGoal" alignment="TOP_LEFT" prefHeight="23.0" prefWidth="213.0" text="Training goal:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboGoal" prefHeight="26.0" prefWidth="190.0" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="sex" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="396.0" text="Sex:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboSex" prefHeight="26.0" prefWidth="410.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="birthday" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="396.0" text="Birthday:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="dateBirthday" prefHeight="26.0" prefWidth="410.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" maxWidth="400.0" minHeight="50.0" spacing="35.0">
+               <children>
+                  <Label fx:id="fitnessLevel" alignment="TOP_LEFT" prefHeight="34.0" prefWidth="396.0" text="Fitness level:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="28.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboLevel" prefHeight="26.0" prefWidth="410.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="save" alignment="CENTER" contentDisplay="CENTER" onAction="#switchTo" style="-fx-background-color: #6BC648;" text="save" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</AnchorPane>
