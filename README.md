@@ -42,5 +42,5 @@ Trainingplan is just a small study project and there are still bugs and missing 
 <img width="4787" alt="KlassenDiagram" src="https://github.com/FLink30/trainingplan/assets/146379845/f27957db-b288-4f97-8137-d41a97ed3ab2">
 
 **Developers:**
-This project was developed by a team of four students. 
+This project was developed by a team of three students. 
 
