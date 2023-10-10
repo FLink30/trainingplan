@@ -28,6 +28,7 @@ Trainingplan was built using the following technologies:
 - Streams / Lambda-functions
 - Unit-Tests
 - Documentation
+- UML 
 
 ## TODOs: 
 Trainingplan is just a small study project and there are still bugs and missing functionalities: 
