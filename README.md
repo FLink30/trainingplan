@@ -16,7 +16,18 @@ The main methode is located in the class de.hdmstuttgart.controller.HelloApplica
 ## Technology Used
 Trainingplan was built using the following technologies: 
 - Java
-- FXML
+- JavaFX
+
+## Goals: 
+- expandable architecture with inheritance and interfaces 
+- useful package structure
+- exceptions
+- GUI (JavaFX)
+- Logging
+- Threads
+- Streams / Lambda-functions
+- Unit-Tests
+- Documentation
 
 ## TODOs: 
 Trainingplan is just a small study project and there are still bugs and missing functionalities: 
