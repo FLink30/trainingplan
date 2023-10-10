@@ -28,6 +28,10 @@ Trainingplan is just a small study project and there are still bugs and missing 
 - change the age in the profile
 - add a photo in the profile
 - add their own exercises to the category lists and the trainingplans
+- UI-Tests 
+
+**Ohter improvements:**
+- we should use a hashmap with the scenes in it instead of using the 'switchTo'-mthode and always build the scenes anew 
 
 ## Use Case Diagram
   
