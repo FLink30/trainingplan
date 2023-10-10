@@ -31,7 +31,7 @@ Trainingplan is just a small study project and there are still bugs and missing 
 - UI-Tests 
 
 **Other improvements:**
-- we should use a hashmap with the scenes in it instead of using the 'switchTo'-mthode and always build the scenes anew 
+- we should use a hashmap with the scenes in it, instead of using the 'switchTo'-methode and always build the scenes anew 
 
 ## Use Case Diagram
   
